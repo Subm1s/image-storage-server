@@ -13,22 +13,7 @@ const port = process.env.PORT;
 app.use(
   cors({
     credentials: true,
-    origin: [
-      "*",
-      "http://localhost:3000",
-      "http://localhost:5050",
-      "http://client.api.localhost:3000",
-      "http://localhost:5173",
-      "https://4nxxvf8x-5173.euw.devtunnels.ms",
-      "https://4nxxvf8x-3000.euw.devtunnels.ms",
-      "https://dev.onemarket.in.ua",
-      "https://admin.onemarket.in.ua",
-      "https://dev-test.onemarket.in.ua",
-      "https://admin-test.onemarket.in.ua",
-      "https://bbrdq16w-3000.euw.devtunnels.ms",
-      "https://w6cztjdb-3000.euw.devtunnels.ms",
-      "https://d0q47hgp-5050.euw.devtunnels.ms/",
-    ],
+    origin: ["*"],
   })
 );
 
